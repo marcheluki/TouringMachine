@@ -108,7 +108,7 @@ transition_function = {
     ("q3", " "): {"write": " ", "next_state": "init", "move": 1}
 }
 
-t = TuringMachine(" 001100110 ",
+t = TuringMachine(" 1010 ",
                   current_state="init",
                   final_states=final_states,
                   transition_function=transition_function)
